@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.metrics import r2_score
 
-data = 'Dataset/Housing.csv'
+data = '/content/Housing.csv'
 df = pd.read_csv(data)
 df.head()
 
