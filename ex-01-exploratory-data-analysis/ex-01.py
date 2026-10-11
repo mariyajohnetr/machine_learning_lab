@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = 'Dataset/titanic.csv'
+data = '/content/titanic.csv'
 
 df = pd.read_csv(data)
 
