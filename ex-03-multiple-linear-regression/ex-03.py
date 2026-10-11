@@ -14,7 +14,7 @@ from sklearn.metrics import (
     max_error
 )
 
-data = 'Dataset/Housing.csv'
+data = '/content/Housing.csv'
 
 df= pd.read_csv(data)
 
