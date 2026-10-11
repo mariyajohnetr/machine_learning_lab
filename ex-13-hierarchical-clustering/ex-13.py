@@ -14,7 +14,7 @@ from scipy.cluster.hierarchy import (
     linkage
 )
 
-df = pd.read_csv("heart_disease_dataset.csv")
+df = pd.read_csv("/content/heart_disease_dataset.csv")
 
 print("Dataset Shape:", df.shape)
 print("\nFirst 5 records:")
