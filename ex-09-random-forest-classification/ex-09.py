@@ -33,7 +33,7 @@ from sklearn.metrics import (
 
 # Load the dataset
 
-df = pd.read_csv("heart_disease_dataset.csv")
+df = pd.read_csv("/content/heart_disease_dataset.csv")
 
 # Display first 5 rows
 df.head()
