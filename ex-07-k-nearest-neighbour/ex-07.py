@@ -23,7 +23,7 @@ from sklearn.metrics import (
     roc_auc_score
 )
 
-df = pd.read_csv("heart_disease_dataset.csv")
+df = pd.read_csv("/content/heart_disease_dataset.csv")
 
 print("Dataset Shape:", df.shape)
 
