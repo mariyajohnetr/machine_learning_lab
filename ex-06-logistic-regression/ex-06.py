@@ -25,7 +25,7 @@ from sklearn.metrics import (
     auc
 )
 
-df = pd.read_csv("heart_disease_dataset.csv")
+df = pd.read_csv("/content/heart_disease_dataset.csv")
 
 print("First 5 rows:")
 print(df.head())
