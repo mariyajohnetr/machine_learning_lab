@@ -16,7 +16,7 @@ from sklearn.metrics import (
     max_error
 )
 
-data = 'Dataset/fish.csv'
+data = '/content/fish.csv'
 df = pd.read_csv(data)
 
 df.head()
