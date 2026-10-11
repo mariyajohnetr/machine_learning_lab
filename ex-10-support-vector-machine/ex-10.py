@@ -21,7 +21,7 @@ from sklearn.metrics import (
     confusion_matrix
 )
 
-df = pd.read_csv("heart_disease_dataset.csv")
+df = pd.read_csv("/content/heart_disease_dataset.csv")
 
 print("Dataset Shape:", df.shape)
 print("\nFirst 5 records:")
